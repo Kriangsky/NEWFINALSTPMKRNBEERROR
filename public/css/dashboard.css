@@ -1,0 +1,96 @@
+/* dashboard.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-admin {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information {
+    width:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-admin {
+    width:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detail-information {
+    width: 60%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.images-right img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.user-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    display: flex;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+.user-card .detail-information {
+    /* width: 60%; */
+}
+
+.user-card .title {
+    display: flex;
+    align-items: center;
+}
+
+/* Add more styles as needed */

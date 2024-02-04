@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+.login-container {
+  text-align: center;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 70px;
+}
+
+label{
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.opsi{
+  background:black;
+  border: 10px solid white;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.opsi:hover {
+  background: #0707DB; 
+  width: 58px;
+  height: 58px; 
+}
+
+.opsi:hover + label {
+  color: #0707DB; 
+}
+
+label:hover {
+  color: #0707DB;
+  font-size: 37px; 
+}
+
+.indiv:hover .opsi {
+  background: #0707DB;
+  width: 58px;
+  height: 58px;
+}
+
+.opsi:hover + label {
+  color: #0707DB;
+  font-size: 37px;
+}
+
+label:hover {
+  color: #0707DB;
+  font-size: 37px;
+}
+
+.indiv:hover label + .opsi {
+  background: #0707DB;
+}

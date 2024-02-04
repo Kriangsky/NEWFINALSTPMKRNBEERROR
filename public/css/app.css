@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.login-button {
+    border: 1px solid grey;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white !important;
+    transition: background-color 0.3s ease 0.1s;
+    margin: 0px 15px;
+}
+
+.login-button:hover {
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+}
+
+.anchor {
+    /* color: #000000A6; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: color 3s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.anchor:hover {
+    transform: scale(1.05);
+    color: grey;
+}
+
+.nav-item {
+    margin: 0px 15px !important;
+}
